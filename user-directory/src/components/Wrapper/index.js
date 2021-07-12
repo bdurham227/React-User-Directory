@@ -27,6 +27,36 @@ componentMount() {
   .catch(err => console.log(err));
 }
 
+handleInputChange = event => {
+  this.setState({ search: event.target.value });
+};
+
+filterUsers() {
+  const search = this.state.search.toLowerCase();
+  return this.state.users.filter(user => {
+    return (
+      user.first.toLowerCase().includes(search) || user.last.toLowerCase().includes(search)
+    );
+  });
+}
+
+renderUsers = () => {
+  return this.filterUsers()
+  .sort(this.sortUsers)
+  .map((user, index) => {
+    return (
+      <tr key={index}>
+        <td>
+          <img src={user.image} alt="user"></img>
+        </td>
+        <td>{user.first}</td>
+        <td>{user.last}</td>
+        <td>{user.email}</td>
+      </tr>
+     
+    )
+  })
+}
 
 
 
