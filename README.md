@@ -21,11 +21,11 @@ The React-User-Directory is a client-side application that enables users to quic
  
 
    Getting Started:
-   * check node is installed
-   * npm installed
-   * npm initialized
+   * check NodeJs is installed
+   * Clone my Repository- git clone https://github.com/bdurham227/React-User-Directory
+   * npm install
    * npm init
-   * package.json and dependencies
+   * run "npm start" on your command line
   
     node -v
     npm install
@@ -38,26 +38,18 @@ The React-User-Directory is a client-side application that enables users to quic
 
 
 
- ## Usage
+ ## Technology Used
 
- ---
-
- Run MySQL Shell:
- 
-      cd db
-      mysql -u root -p
-      *enter password*
-      quit
-      cd ..
+* NodeJs
+* HTML5
+* CSS 3
+* Javascript
+* React
 
 
 
 
-   Start the Server:    
-```
-   node server.js
-   OR
-   nodemon server.js
+
 ```
 
 
@@ -67,15 +59,16 @@ The React-User-Directory is a client-side application that enables users to quic
 
 Screenshot of Application:
 --
-![Screenshot](public/images/tbhomepage.png)
+![Screenshot](user-directory/images/page1.png)
+
+Screenshot of Search Result: 
+
+![Screenshot](user-directory/images/page2.png)
 
 
-![Screenshot](public/images/tbdashboard.png)
+![DEMO](user-directory/images/userdirectory.gif)
 
 
-![Screenshot](public/images/tblogin.png)
-
-![Screenshot](public/images/tbsignup.png)
 
 
 
@@ -114,6 +107,7 @@ Visit the Repo:
  For additional questions about usage, installation or application improvement contact me through
 
 Github: https://github.com/bdurham227
+Repository: https://github.com/bdurham227/React-User-Directory
 
 Email: bdurham227@gmail.com:
 
