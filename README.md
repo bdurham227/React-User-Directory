@@ -50,11 +50,12 @@ The React-User-Directory is a client-side application that enables users to quic
 
 
 
-```
 
 
 
 
+Visit the Deployed site: 
+https://durham-directory.herokuapp.com/
 
 
 Screenshot of Application:
